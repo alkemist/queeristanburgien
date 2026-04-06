@@ -10,25 +10,15 @@ icon: 🏠
 options:
   changeStatus: false
 
-# Here we define an info section and a pages section (`photography`)
 sections:
   content:
     type: fields
     fields:
       headline:
+        label: Titre
         type: text
-        width: 1/2
-      gap:
-        width: 1/2
+        width: 1
       subheadline:
-        type: text
-        width: 1/2
-
-  # The photography section extends a pages section defined in the `/site/blueprints/section/album.yml` blueprint
-  # More about reusing and extending sections: https://getkirby.com/docs/guide/blueprints/extending-blueprints#reusing-and-extending-sectionss
-  photography:
-    label: Photography
-    extends: sections/albums
-    status: listed
-    size: small
-    help: All projects for the homepage are being pulled from the photography page.
+        label: Description
+        type: textarea
+        width: 1

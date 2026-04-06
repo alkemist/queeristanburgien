@@ -7,3 +7,4 @@ multiple: false
 query: page.images.template('image')
 uploads:
   template: image
+label: Couverture

@@ -12,8 +12,18 @@ return [
     'yaml.handler' => 'symfony', // already makes use of the more modern Symfony YAML parser: https://getkirby.com/docs/reference/system/options/yaml (will become the default in a future Kirby version)
     'panel' => [
         'install' => true,
-	'vue' => [
-		'compiler' => false
-	],
-    ]
+        'vue' => [
+            'compiler' => true
+        ],
+    ],
+    'date' => [
+        'handler' => 'intl'
+    ],
+    'locale' => [
+        LC_ALL      => 'fr_FR.utf-8',
+        LC_COLLATE  => 'fr_FR.utf-8',
+        LC_MONETARY => 'fr_FR.utf-8',
+        LC_NUMERIC  => 'fr_FR.utf-8',
+        LC_TIME     => 'fr_FR.utf-8',
+    ],
 ];

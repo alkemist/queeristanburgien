@@ -78,7 +78,9 @@
       */
       ?>
       <?php foreach ($site->children()->listed() as $item): ?>
-      <a <?php e($item->isOpen(), 'aria-current="page"') ?> href="<?= $item->url() ?>"><?= $item->title()->esc() ?></a>
+        <a <?php e($item->isOpen(), 'aria-current="page"') ?>
+          href="<?= $item->url() ?>"
+        ><?= $item->title()->esc() ?></a>
       <?php endforeach ?>
       <?php snippet('social') ?>
     </nav>

@@ -1,0 +1,3 @@
+[submodule "site/plugins/kirby-events"]
+	path = site/plugins/kirby-events
+	url = https://github.com/scottboms/kirby-events-field.git

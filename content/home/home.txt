@@ -1,12 +1,12 @@
-Title: Home
+Title: Accueil
 
 ----
 
-Headline: Welcome to Kirby's Starterkit
+Headline: Le Queeristan Burgien
 
 ----
 
-Subheadline: A fully documented example project
+Subheadline: Le Queeristan Burgien est une association LGBTI+ qui milite autour de Bourg-en-Bresse, dans l'Ain. Elle est composée de personnes se situant en dehors des normes cisgenre et/ou hétérosexuelle.
 
 ----
 

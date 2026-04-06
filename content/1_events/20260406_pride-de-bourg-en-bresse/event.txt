@@ -1,0 +1,73 @@
+Title: Pride de Bourg en Bresse
+
+----
+
+Cover: []
+
+----
+
+Start-date: 2026-03-28
+
+----
+
+Start-time: 14:30:00
+
+----
+
+End-time: 
+
+----
+
+Location: Esplanade de la Comédie, Bourg-en-bresse
+
+----
+
+Description: 
+
+----
+
+Url: 
+
+----
+
+Tags: 
+
+----
+
+Event:
+
+eventName: 'Pride de Bourg en Bresse'
+startDate: '2026-03-28 00:00:00'
+endDate: '2026-04-28 00:00:00'
+timeStart: '14:30:00'
+timeEnd: ''
+city: 'Bourg en Bresse'
+state: ''
+country: ''
+venue: ''
+url: ''
+details: ''
+
+----
+
+Starthour: 14:30:00
+
+----
+
+Text: 
+
+----
+
+Date: 2026-04-06 08:40:00
+
+----
+
+Author: []
+
+----
+
+Uuid: z9gnmlyhsa0agvrl
+
+----
+
+Hour: 

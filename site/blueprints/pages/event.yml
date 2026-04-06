@@ -1,0 +1,58 @@
+# Each page blueprint must have a title, the title may be different from the file name
+title: Évènement
+
+# Each page can have an icon that is shown in page listings when no preview image is available.
+icon: 📅
+
+# Sorting number scheme that is applied when page status is changed to `listed`
+# More about page sorting: https://getkirby.com/docs/reference/panel/blueprints/page#sorting
+num: date
+
+# Custom descriptions for each page status depending on use case
+# More about page status: https://getkirby.com/docs/reference/panel/blueprints/page#statuses
+status:
+  draft:
+    label: Brouillon
+    text: L'évènement n'est pas encore publié, il n'est pas affiché sur le site
+  listed:
+    label: Publié
+    text: L'évènement est publié, il est visible sur le site
+
+# Define the form layout with two columns
+# Columns are optional but help structure the form layout
+# More about columns: https://getkirby.com/docs/guide/blueprints/layout#defining-columns
+columns:
+  - width: 3/3
+    # This second column holds a fields section with multiple fields
+    # More about fields sections: https://getkirby.com/docs/reference/panel/sections/fields
+    sections:
+      meta:
+        type: fields
+        fields:
+          # If you need the same field in multiple locations, you can define them once and reuse whereever needed.
+          # Here we use a files field defined in `/site/blueprints/field/cover.yml`
+          cover: fields/cover
+          start_date:
+            label: Date
+            type: date
+            required: true
+          start_time:
+            label: Heure de début
+            type: time
+          end_time:
+            label: Heure de fin
+            type: time
+          location:
+            label: Lieu
+            type: text
+            required: true
+          description:
+            type: blocks
+          site_web:
+            label: Site web
+            type: url
+          # Fields types can be added using the shortcut `fieldname: true`
+          # (however, you can only use a fieldname once per page and this only makes sense for simple fields without configuration)
+          tags:
+            label: Catégories
+            type: tags
